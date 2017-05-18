@@ -1,0 +1,258 @@
+body {
+	width: 960px;
+	margin: 0px;
+	background: url(../images/concrete_seamless.png);
+
+
+}
+
+/*Rows 8-60 style the header */
+
+header {
+	width: 100%;
+	position: fixed;
+	top: 0px;
+	height: 80px;
+	background: #ffffff;
+	border-bottom: 2px solid #cccccc;
+	margin: 0px auto;
+
+}
+
+.contact {
+	float:right;
+
+	margin: 60px 80px 25px 0px;
+	border-left: .1px solid #eee;
+	padding-left: 8px;
+	color: #c2c2d6;
+	
+}
+
+.portfolio {
+	float:right;
+	margin: 60px 0px 25px 0px;
+	border-left: .1px solid #eee;
+	padding: 0px 8px;
+	color: #c2c2d6;
+	
+}
+.about {
+	float:right;
+	margin: 60px 0px 25px 0px;
+	border-left: .1px solid #eee;
+	padding: 0px 8px;
+	color: #c2c2d6;
+	
+}
+
+.fullName {
+	height: 30px;
+	width: 160px;
+	padding: 18px 10px 10px 10px;
+	position: relative;
+	bottom: -13px;
+	color: white;
+	font-size: 18px;
+	font-family: Georgia;
+	text-align: center;
+	margin: 10px 0px 0px 70px;
+	background-color: #4aaaa5;
+	float: left;
+
+}
+
+/* Rows 63-65 Removes the underline from all HTML Links */
+a:link {
+	text-decoration: none;
+}
+
+
+/* Rows 71-93 styles the footer */
+
+footer {
+	height: 35px;
+	color: white;
+	background-color: #666666;
+	width: 100%;
+	position: fixed;
+	bottom: 0px;
+	text-align: center;
+	margin: auto auto;
+	padding-top: 14px;
+	font-size: 12px;
+}
+
+.footerAccent {
+	
+	height: 18px;
+	width: 100%;
+	position: fixed;
+	bottom: 36px;
+	background-color: #4aaaa5;
+	border: 1px solid #4aaaa5;
+	margin-bottom: 0px;
+}
+
+/*Rows 96-121 styles the connect with me sidebar */
+
+.sidebar {
+	height: 100px;
+	width: 270px;
+	border: 1px solid #c2c2d6;
+	margin: 115px 0px 0px 20px;
+	float: right;
+	color: #4aaaa5;
+	text-align: center;
+	padding-top: 8px;
+	font-style: helvetica;
+	font-size: 20px;
+	background: #ffffff;
+
+}
+
+.sidebar img {
+	height: 40px;
+	width: 40px;
+	padding: 0px 5px 0px 0px;
+
+}
+
+.sidebar hr {
+	width: 220px;
+	border: 1px solid #c2c2d6;
+}
+/* The rows 125-174 fix the main section */
+
+.main {
+height: 450px;
+width: 620px;
+border: 1px solid ##dddddd;
+float: left;
+margin: 115px 0px 0px 20px;
+padding: 5px 0px 0px 20px;
+background: #ffffff;
+margin-left: 25px;
+overflow: scroll;
+}
+
+.main button{
+ height: 25px;
+ width: 90px;	
+ background-color: #4aaaa5;
+ color: white;
+ font-family: Georgia;
+ font-size: 16px;
+ padding: auto auto;
+}
+
+
+.main h2 {
+	font-family: georgia;
+	font-size: 20px;
+	font-weight: bold;
+	color: #4aaaa5;
+	padding-left: 20px;
+}
+
+.main hr {
+	width: 570px;
+	border: 1px solid #c2c2d6;
+	float: left;
+	margin-left: 2px;
+}
+
+.main #name {
+	margin-bottom: : 4px;
+}
+
+/* The rows 169-176 style the main section on About Me Page */
+
+.main img {
+	float: left;
+}
+
+.main p {
+	margin: 0px 10px 0px 10px;
+
+}
+
+/* The rows 180-255 style the main section of Portfolio*/
+
+.box1 {
+	float: left;
+	margin: 10px 10px 10px 80px;
+	psotion: relative;
+}
+
+.box2 {
+	float: left;
+	margin: 10px 40px 10px 10px; 
+}
+
+.box3 {
+	float: left;
+	margin: 10px 10px 10px 80px; 
+}
+
+.box4 {
+	float: left;
+	margin: 10px 40px 10px 10px; 
+}
+
+.box5 {
+	margin: 10px 10px 10px 160px;
+}
+
+.box1 h3{
+	position: absolute;
+	background: #4aaaa5;
+	color: white;
+	top: 270px;
+	left: 140px;
+	width: 100px;
+	padding: 10px;
+	text-align: center;
+}
+
+.box2 h3{
+	position: absolute;
+	background: #4aaaa5;
+	color: white;
+	top: 270px;
+	left: 310px;
+	width: 100px;
+	padding: 10px;
+	text-align: center;
+}
+.box3 h3{
+	position: absolute;
+	background: #4aaaa5;
+	color: white;
+	top: 430px;
+	left: 140px;
+	width: 100px;
+	padding: 10px;
+	text-align: center;
+}
+.box4 h3{
+	position: absolute;
+	background: #4aaaa5;
+	color: white;
+	top: 420px;
+	left: 310px;
+	width: 100px;
+	padding: 10px;
+	text-align: center;
+}
+.box5 h3{
+	position: absolute;
+	background: #4aaaa5;
+	color: white;
+	top: 550px;
+	left: 220px;
+	width: 100px;
+	padding: 10px;
+	text-align: center;
+}
+
